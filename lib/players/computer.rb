@@ -27,7 +27,7 @@ def move(board)
        c = cell + num.to_s
        #print c
        num += 1
-     break
+     #break
      else
        num += 1
      #num += 1
