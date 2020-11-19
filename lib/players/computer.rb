@@ -8,7 +8,7 @@ module Players
       board.cells.each do |cell|
         if cell == " "
           c = cell + num.to_s
-          num += 1
+          #num += 1
         break
         else
           num += 1
