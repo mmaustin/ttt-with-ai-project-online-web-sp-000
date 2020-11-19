@@ -18,22 +18,23 @@ module Players
     end
 =end
 
-  def move(board)
-    #It passes somehow, but this is not at all correct!!!
-    "5"
-=begin
-    valid_moves = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
-    array = []
-    num = 1
-    board.cells.each do |cell|
-      if valid_moves.include?(cell = num.to_s)
-       array << cell
-      num += 1
-      end
-    end
-    array
-=end
-  end
+def move(board)
+   c = ""
+   num = 1
+   board.cells.each do |cell|
+     if cell == " "
+       #num += 1
+       c = cell + num.to_s
+       #print c
+       num += 1
+     break
+     else
+       num += 1
+     #num += 1
+     end
+   end
+   print c
+ end
 
   end
 end
