@@ -19,7 +19,7 @@ module Players
 =end
 
 def move(board)
-   c = " "
+   c = "           "
    num = 1
    board.cells.each do |cell|
      if cell == " "
