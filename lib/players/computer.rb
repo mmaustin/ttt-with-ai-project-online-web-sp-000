@@ -24,7 +24,7 @@ def move(board)
    board.cells.each do |cell|
      if cell == " "
        #num += 1
-       c = cell + num
+       c = cell + num.to_s
        #print c
        num += 1
      break
