@@ -14,8 +14,8 @@ module Players
           num += 1
         end
       end
-    c.strip
-  end
+      c.strip
+    end
 
   end
 end
