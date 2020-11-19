@@ -13,7 +13,7 @@ module Players
           num += 1
         end
       end
-      c.strip
+      c
     end
 
   end
