@@ -22,7 +22,7 @@ def move(board)
    c = ""
    num = 1
    board.cells.each do |cell|
-     if cell != " "
+     if cell == " "
        #num += 1
        c = cell + num.to_s
        #print c
