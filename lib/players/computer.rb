@@ -33,7 +33,7 @@ def move(board)
      #num += 1
      end
    end
-   print c
+   c
  end
 
   end
